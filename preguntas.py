@@ -74,7 +74,7 @@ def pregunta_01():
     y = df['type']
 
     # Asigne una copia del dataframe `df` a la variable `X`.
-    X = X.copy()
+    X = df.copy()
 
     # Remueva la columna `type` del DataFrame `X`.
     X.drop(columns = 'type', inplace = True)
